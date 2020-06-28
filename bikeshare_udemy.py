@@ -52,7 +52,7 @@ def get_filters():
             print("Invalid. Please type in valid day (or \"all\" to select every day)")
             continue
         else:
-            print("\nIt looks like you want to filter by: '{}' ".format(day.title()))
+            print("\nIt looks like you want to filter by:" + str(day.title()))
             validity_check()
             break
 
