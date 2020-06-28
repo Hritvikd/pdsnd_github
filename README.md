@@ -4,7 +4,7 @@
 
 ### Project Title
 
-udemy bikeshare project
+udacity bikeshare project
 
 ### Description
 
