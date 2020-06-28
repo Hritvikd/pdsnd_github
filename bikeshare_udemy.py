@@ -91,7 +91,7 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
     # extract month and day of week from Start Time to create new columns
-    df['Month'] = df['Start Time'].dt.month
+    df['Month'] = df['Start Time'].dt.month #extraction of month from start_time
     df['Day_of_Week'] = df['Start Time'].dt.weekday_name
     df['Hour'] = df['Start Time'].dt.hour
     if month != 'all':
