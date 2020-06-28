@@ -30,7 +30,7 @@ def get_filters():
             print("\nInvalid Response. Please give corect input")
             continue
         else:
-            print("\ncheck the data: '{}' ".format(city.title()))
+            print("\ncheck the data: " + str(city.title()) )
             validity_check()
             break
 
@@ -41,7 +41,7 @@ def get_filters():
             print("\nInvalid. Please type in month name (or \"all\" to select every month)")
             continue
         else:
-            print("\nIt looks like you want to filter by: '{}' ".format(month.title()))
+            print("\nIt looks like you want to filter by: " + str(month.title()) )
             validity_check()
             break
 
@@ -52,7 +52,7 @@ def get_filters():
             print("Invalid. Please type in valid day (or \"all\" to select every day)")
             continue
         else:
-            print("\nIt looks like you want to filter by: '{}' ".format(day.title()))
+            print("\nIt looks like you want to filter by:" + str(day.title()))
             validity_check()
             break
 
