@@ -23,3 +23,4 @@ https://stackoverflow.com/questions/21323692/convert-seconds-to-weeks-days-hours
 http://pandas.pydata.org/pandas-docs/stable/api.html?#groupby
 pandas documentation
 python documentation
+git documentations
