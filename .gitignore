@@ -1,6 +1,6 @@
 # csv files
-.csv
-.xlsx
+*.csv
+*.xlsx
 
 #python code
 .py
